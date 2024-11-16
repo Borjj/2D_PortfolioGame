@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "com.seanba.super-tiled2unity": {
+      "version": "file:F:/UnityGames_Selfmade/2D_Puzzle_Pathfinder/Tiled 2 Unity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.tilemap": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.tilemap": "1.0.0"
+      }
+    },
     "com.unity.2d.animation": {
       "version": "9.0.4",
       "depth": 1,
