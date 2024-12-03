@@ -28,7 +28,7 @@ public class Chest : MonoBehaviour
         // Check for F key press only if player is in range and has the key
         if (playerInRange && currentPlayer != null)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.F) && currentPlayer.HasAllKeyFragments())
             {
                 OpenChest();
             }
@@ -45,7 +45,7 @@ public class Chest : MonoBehaviour
             currentPlayer = other.GetComponent<PlayerController_2D>();
 
             // Show prompt if player has key
-            if (interactPrompt != null)
+            if (interactPrompt != null && currentPlayer.HasAllKeyFragments())
             {
                 interactPrompt.SetActive(true);
             }
@@ -69,6 +69,8 @@ public class Chest : MonoBehaviour
 
     private void OpenChest()
     {
+        currentPlayer.ConsumeKeyFragments();
+        
         endKey.SetActive(true);
 
         // Hide prompt if you have one

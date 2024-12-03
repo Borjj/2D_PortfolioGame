@@ -64,116 +64,44 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\StaggerAxis.cs">
-      <Link>Runtime\StaggerAxis.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\CollisionObject.cs">
-      <Link>Runtime\CollisionObject.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\StaggerIndex.cs">
-      <Link>Runtime\StaggerIndex.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\MapRenderOrder.cs">
-      <Link>Runtime\MapRenderOrder.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperTileLayer.cs">
-      <Link>Runtime\SuperTileLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperColliderComponent.cs">
-      <Link>Runtime\SuperColliderComponent.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperCustomProperties.cs">
-      <Link>Runtime\SuperCustomProperties.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperObjectLayer.cs">
-      <Link>Runtime\SuperObjectLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperTilesAsObjectsTilemap.cs">
-      <Link>Runtime\SuperTilesAsObjectsTilemap.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Extensions\GameObjectExtensions.cs">
-      <Link>Runtime\Extensions\GameObjectExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\GridOrientation.cs">
-      <Link>Runtime\GridOrientation.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\FlipFlags.cs">
-      <Link>Runtime\FlipFlags.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperObject.cs">
-      <Link>Runtime\SuperObject.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\TileRenderSize.cs">
-      <Link>Runtime\TileRenderSize.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperGroupLayer.cs">
-      <Link>Runtime\SuperGroupLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Tiles\SuperTile.cs">
-      <Link>Runtime\Tiles\SuperTile.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Extensions\CustomPropertyExtensions.cs">
-      <Link>Runtime\Extensions\CustomPropertyExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Tiles\SuperBadTile.cs">
-      <Link>Runtime\Tiles\SuperBadTile.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Extensions\SuperTileExtensions.cs">
-      <Link>Runtime\Extensions\SuperTileExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Errors\ImportErrors.cs">
-      <Link>Runtime\Errors\ImportErrors.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\ObjectAlignment.cs">
-      <Link>Runtime\ObjectAlignment.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperMap.cs">
-      <Link>Runtime\SuperMap.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\TileObjectAnimator.cs">
-      <Link>Runtime\TileObjectAnimator.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\MapOrientation.cs">
-      <Link>Runtime\MapOrientation.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\CustomProperty.cs">
-      <Link>Runtime\CustomProperty.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Extensions\StringExtensions.cs">
-      <Link>Runtime\Extensions\StringExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperTileset.cs">
-      <Link>Runtime\SuperTileset.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperImageLayer.cs">
-      <Link>Runtime\SuperImageLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\FillMode.cs">
-      <Link>Runtime\FillMode.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperLayer.cs">
-      <Link>Runtime\SuperLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Math\MatrixUtils.cs">
-      <Link>Runtime\Math\MatrixUtils.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\ReadOnlyAttribute.cs">
-      <Link>Runtime\ReadOnlyAttribute.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\SuperWorld.cs">
-      <Link>Runtime\SuperWorld.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\Extensions\EnumerableExtensions.cs">
-      <Link>Runtime\Extensions\EnumerableExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\CollisionShapeType.cs">
-      <Link>Runtime\CollisionShapeType.cs</Link>
-    </Compile>
+    <Compile Include="Tiled 2 Unity\Runtime\StaggerAxis.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\CollisionObject.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\StaggerIndex.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\MapRenderOrder.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperTileLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperColliderComponent.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperCustomProperties.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperObjectLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperTilesAsObjectsTilemap.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\GridOrientation.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\FlipFlags.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperObject.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\TileRenderSize.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperGroupLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Tiles\SuperTile.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Extensions\CustomPropertyExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Tiles\SuperBadTile.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Extensions\SuperTileExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Errors\ImportErrors.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\ObjectAlignment.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperMap.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\TileObjectAnimator.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\MapOrientation.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\CustomProperty.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Extensions\StringExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperTileset.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperImageLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\FillMode.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Math\MatrixUtils.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\ReadOnlyAttribute.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\SuperWorld.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Runtime\CollisionShapeType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Runtime\seanba.super-tiled2unity.asmdef">
-      <Link>Runtime\seanba.super-tiled2unity.asmdef</Link>
-    </None>
+    <None Include="Tiled 2 Unity\Runtime\seanba.super-tiled2unity.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

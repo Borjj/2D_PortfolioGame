@@ -66,9 +66,16 @@ public class AudioManager : MonoBehaviour
     {
         if (soundDictionary.TryGetValue(soundName, out SoundEffect sound))
         {
-            AudioSource source = GetAvailableSource();
+            // Create a new source for overlapping sounds
+            AudioSource source = gameObject.AddComponent<AudioSource>();
+            sfxSources.Add(source);
+            
             ConfigureAudioSource(source, sound, position);
             source.Play();
+
+            // Destroy the audio source after it finishes playing
+            float destroyDelay = sound.clip.length + 0.1f;
+            Destroy(source, destroyDelay);
         }
     }
 
@@ -93,13 +100,34 @@ public class AudioManager : MonoBehaviour
 
     private AudioSource GetAvailableSource()
     {
+        // First clean up any old or unused sources
+        CleanupAudioSources();
+        
+        // Then try to find an available source
         AudioSource source = sfxSources.Find(s => !s.isPlaying);
         if (source == null)
         {
+            // If no available source found, create a new one
             source = gameObject.AddComponent<AudioSource>();
             sfxSources.Add(source);
         }
         return source;
+    }
+
+    private void CleanupAudioSources()
+    {
+        // Remove any null references from the list
+        sfxSources.RemoveAll(source => source == null);
+        
+        // Remove finished non-playing sources
+        for (int i = sfxSources.Count - 1; i >= 0; i--)
+        {
+            if (sfxSources[i] != null && !sfxSources[i].isPlaying)
+            {
+                Destroy(sfxSources[i]);
+                sfxSources.RemoveAt(i);
+            }
+        }
     }
 
     public void PlayMusic()

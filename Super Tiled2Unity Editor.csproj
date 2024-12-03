@@ -64,362 +64,126 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\SuperImporterEditor.cs">
-      <Link>Editor\Importers\SuperImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\CustomEditors\SuperColliderComponentEditor.cs">
-      <Link>Editor\CustomEditors\SuperColliderComponentEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\CustomImporters\CustomTmxImporter.cs">
-      <Link>Editor\CustomImporters\CustomTmxImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Mesh.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\Mesh.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAssetMap.cs">
-      <Link>Editor\AssetTypes\SuperAssetMap.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Helpers\NamedColors.cs">
-      <Link>Editor\Helpers\NamedColors.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\CustomEditors\SuperMapEditor.cs">
-      <Link>Editor\CustomEditors\SuperMapEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\DrawOrder.cs">
-      <Link>Editor\DrawOrder.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\WorldAssetImporter.cs">
-      <Link>Editor\Importers\WorldAssetImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\ImporterConstants.cs">
-      <Link>Editor\Importers\ImporterConstants.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\SuperTileExtensions.cs">
-      <Link>Editor\Extensions\SuperTileExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Math\ColliderFactoryIsometric.cs">
-      <Link>Editor\Math\ColliderFactoryIsometric.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\MultiValueDictionary.cs">
-      <Link>Editor\ThirdParty\MultiValueDictionary.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\TilesetLoader.cs">
-      <Link>Editor\Loaders\TilesetLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\SuperLayerLoader.cs">
-      <Link>Editor\Loaders\SuperLayerLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Tiles\BadTileSpriteProvider.cs">
-      <Link>Editor\Tiles\BadTileSpriteProvider.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\LayerSorterHelper.cs">
-      <Link>Editor\Importers\LayerSorterHelper.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Settings\ST2USettings.cs">
-      <Link>Editor\Settings\ST2USettings.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporter.GroupLayer.cs">
-      <Link>Editor\Importers\TmxAssetImporter.GroupLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\CollisionObjectExtensions.cs">
-      <Link>Editor\Extensions\CollisionObjectExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\WorldAssetImporterEditor.cs">
-      <Link>Editor\Importers\WorldAssetImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Config\SuperTiled2Unity_Config.cs">
-      <Link>Editor\Config\SuperTiled2Unity_Config.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Windows\SuperPackageExport.cs">
-      <Link>Editor\Windows\SuperPackageExport.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\StreamExtensions.cs">
-      <Link>Editor\Extensions\StreamExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\XmlExtensions.cs">
-      <Link>Editor\Extensions\XmlExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Postprocessors\AssetDependencies.cs">
-      <Link>Editor\Postprocessors\AssetDependencies.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Settings\LayerMaterialMatch.cs">
-      <Link>Editor\Settings\LayerMaterialMatch.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TxAssetImporter.cs">
-      <Link>Editor\Importers\TxAssetImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\PriorityQueue.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\PriorityQueue.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Postprocessors\TiledAssetDependencies.cs">
-      <Link>Editor\Postprocessors\TiledAssetDependencies.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\ByteExtensions.cs">
-      <Link>Editor\Extensions\ByteExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\ComposeConvexPolygons.cs">
-      <Link>Editor\Collision\Geometry\ComposeConvexPolygons.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Exceptions\CustomImporterException.cs">
-      <Link>Editor\Exceptions\CustomImporterException.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Math\PolygonUtils.cs">
-      <Link>Editor\Math\PolygonUtils.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TiledAssetImporter.cs">
-      <Link>Editor\Importers\TiledAssetImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\Math.cs">
-      <Link>Editor\Collision\Geometry\Math.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Dict.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\Dict.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Tess.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\Tess.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Tiles\BadTileTextures.cs">
-      <Link>Editor\Tiles\BadTileTextures.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\LayerIgnoreMode.cs">
-      <Link>Editor\LayerIgnoreMode.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\CustomPropertyLoader.cs">
-      <Link>Editor\Loaders\CustomPropertyLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\PriorityHeap.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\PriorityHeap.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\DataEncoding.cs">
-      <Link>Editor\DataEncoding.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAssetTileset.cs">
-      <Link>Editor\AssetTypes\SuperAssetTileset.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\GUI\GuiScopedBackgroundColor.cs">
-      <Link>Editor\GUI\GuiScopedBackgroundColor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\MeshUtils.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\MeshUtils.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporter.TileLayer.cs">
-      <Link>Editor\Importers\TmxAssetImporter.TileLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAssetWorld.cs">
-      <Link>Editor\AssetTypes\SuperAssetWorld.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Windows\RecursiveAssetDependencyTracker.cs">
-      <Link>Editor\Windows\RecursiveAssetDependencyTracker.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Path\ChDir.cs">
-      <Link>Editor\Path\ChDir.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Postprocessors\SuperAssetDependencyPostprocessor.cs">
-      <Link>Editor\Postprocessors\SuperAssetDependencyPostprocessor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporter.ObjectLayer.cs">
-      <Link>Editor\Importers\TmxAssetImporter.ObjectLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\PolygonEdgeGroup.cs">
-      <Link>Editor\Collision\Geometry\PolygonEdgeGroup.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\StringConstants.cs">
-      <Link>Editor\StringConstants.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\RectUtil.cs">
-      <Link>Editor\Extensions\RectUtil.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAssetTemplate.cs">
-      <Link>Editor\AssetTypes\SuperAssetTemplate.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporter.ImageLayer.cs">
-      <Link>Editor\Importers\TmxAssetImporter.ImageLayer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Errors\ImportErrorsEditor.cs">
-      <Link>Editor\Errors\ImportErrorsEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\SuperGroupLayerLoader.cs">
-      <Link>Editor\Loaders\SuperGroupLayerLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Helpers\UniqueNameifier.cs">
-      <Link>Editor\Helpers\UniqueNameifier.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\SortingMode.cs">
-      <Link>Editor\SortingMode.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\SuperLayerExtensions.cs">
-      <Link>Editor\Extensions\SuperLayerExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Geom.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\Geom.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\CollisionClipper.cs">
-      <Link>Editor\Collision\CollisionClipper.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\TilePolygonCollection.cs">
-      <Link>Editor\Collision\TilePolygonCollection.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Settings\TypePrefabReplacement.cs">
-      <Link>Editor\Settings\TypePrefabReplacement.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\SuperTileLayerLoader.cs">
-      <Link>Editor\Loaders\SuperTileLayerLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\clipper.cs">
-      <Link>Editor\ThirdParty\clipper.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\CollisionClipperKey.cs">
-      <Link>Editor\Collision\CollisionClipperKey.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporter.cs">
-      <Link>Editor\Importers\TmxAssetImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\AppDomainExtensions.cs">
-      <Link>Editor\Extensions\AppDomainExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Sweep.cs">
-      <Link>Editor\ThirdParty\LibTessDotNet\Sweep.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\PolygonEdge.cs">
-      <Link>Editor\Collision\Geometry\PolygonEdge.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAssetSettings.cs">
-      <Link>Editor\AssetTypes\SuperAssetSettings.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TmxAssetImporterEditor.cs">
-      <Link>Editor\Importers\TmxAssetImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\SuperImageLayerLoader.cs">
-      <Link>Editor\Loaders\SuperImageLayerLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\GUI\GuiScopedIndent.cs">
-      <Link>Editor\GUI\GuiScopedIndent.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TiledAssetImporterEditor.cs">
-      <Link>Editor\Importers\TiledAssetImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Settings\ST2USettingsProvider.cs">
-      <Link>Editor\Settings\ST2USettingsProvider.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\SuperImporter.cs">
-      <Link>Editor\Importers\SuperImporter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\StringExtensions.cs">
-      <Link>Editor\Extensions\StringExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Attributes\AutoCustomTmxImporterAttribute.cs">
-      <Link>Editor\Attributes\AutoCustomTmxImporterAttribute.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\TilePolygon.cs">
-      <Link>Editor\Collision\TilePolygon.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\GlobalTileDatabase.cs">
-      <Link>Editor\GlobalTileDatabase.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Settings\CustomPropertiesWindow.cs">
-      <Link>Editor\Settings\CustomPropertiesWindow.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\AddST2USpritesToTexture.cs">
-      <Link>Editor\Importers\AddST2USpritesToTexture.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\RendererSorter.cs">
-      <Link>Editor\Importers\RendererSorter.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\CollisionBuilder.cs">
-      <Link>Editor\Collision\CollisionBuilder.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetTypes\SuperAsset.cs">
-      <Link>Editor\AssetTypes\SuperAsset.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AnimationBuilder.cs">
-      <Link>Editor\AnimationBuilder.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Postprocessors\SuperTexturePostprocessor.cs">
-      <Link>Editor\Postprocessors\SuperTexturePostprocessor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Properties\CustomObjectType.cs">
-      <Link>Editor\Properties\CustomObjectType.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\CustomPropertyExtensions.cs">
-      <Link>Editor\Extensions\CustomPropertyExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\GameObjectExtensions.cs">
-      <Link>Editor\Extensions\GameObjectExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\CompositionPolygon.cs">
-      <Link>Editor\Collision\Geometry\CompositionPolygon.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Icons\SuperIcons.cs">
-      <Link>Editor\Icons\SuperIcons.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\CompositeCollider2DExtensions.cs">
-      <Link>Editor\Extensions\CompositeCollider2DExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TxAssetImporterEditor.cs">
-      <Link>Editor\Importers\TxAssetImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\ObjectTemplate.cs">
-      <Link>Editor\ObjectTemplate.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\SuperImportContext.cs">
-      <Link>Editor\Importers\SuperImportContext.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Sprite\SpriteRectsManager.cs">
-      <Link>Editor\Sprite\SpriteRectsManager.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\AssetPath.cs">
-      <Link>Editor\AssetPath.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\Triangulator.cs">
-      <Link>Editor\Collision\Geometry\Triangulator.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TsxAssetImporterEditor.cs">
-      <Link>Editor\Importers\TsxAssetImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Math\ColliderFactory.cs">
-      <Link>Editor\Math\ColliderFactory.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\Collider2DExtensions.cs">
-      <Link>Editor\Extensions\Collider2DExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\DataCompression.cs">
-      <Link>Editor\DataCompression.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Collision\Geometry\PolylineReduction.cs">
-      <Link>Editor\Collision\Geometry\PolylineReduction.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\TileIdMath.cs">
-      <Link>Editor\TileIdMath.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\SuperMapExtensions.cs">
-      <Link>Editor\Extensions\SuperMapExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\CustomEditors\ColliderGizmos.cs">
-      <Link>Editor\CustomEditors\ColliderGizmos.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Extensions\TypeExtensions.cs">
-      <Link>Editor\Extensions\TypeExtensions.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Math\ColliderFactoryOrthogonal.cs">
-      <Link>Editor\Math\ColliderFactoryOrthogonal.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Loaders\SuperObjectLayerLoader.cs">
-      <Link>Editor\Loaders\SuperObjectLayerLoader.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Helpers\ReadOnlyPropertyDrawer.cs">
-      <Link>Editor\Helpers\ReadOnlyPropertyDrawer.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\CustomEditors\SuperWorldEditor.cs">
-      <Link>Editor\CustomEditors\SuperWorldEditor.cs</Link>
-    </Compile>
-    <Compile Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\Importers\TsxAssetImporter.cs">
-      <Link>Editor\Importers\TsxAssetImporter.cs</Link>
-    </Compile>
+    <Compile Include="Tiled 2 Unity\Editor\Importers\SuperImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\CustomEditors\SuperColliderComponentEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\CustomImporters\CustomTmxImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Mesh.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAssetMap.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Helpers\NamedColors.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\CustomEditors\SuperMapEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\DrawOrder.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\WorldAssetImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\ImporterConstants.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\SuperTileExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Math\ColliderFactoryIsometric.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\MultiValueDictionary.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\TilesetLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\SuperLayerLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Tiles\BadTileSpriteProvider.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\LayerSorterHelper.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Settings\ST2USettings.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporter.GroupLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\CollisionObjectExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\WorldAssetImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Config\SuperTiled2Unity_Config.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Windows\SuperPackageExport.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\StreamExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\XmlExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Postprocessors\AssetDependencies.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Settings\LayerMaterialMatch.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TxAssetImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\PriorityQueue.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Postprocessors\TiledAssetDependencies.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\ByteExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\ComposeConvexPolygons.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Exceptions\CustomImporterException.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Math\PolygonUtils.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TiledAssetImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\Math.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Dict.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Tess.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Tiles\BadTileTextures.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\LayerIgnoreMode.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\CustomPropertyLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\PriorityHeap.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\DataEncoding.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAssetTileset.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\GUI\GuiScopedBackgroundColor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\MeshUtils.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporter.TileLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAssetWorld.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Windows\RecursiveAssetDependencyTracker.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Path\ChDir.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Postprocessors\SuperAssetDependencyPostprocessor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporter.ObjectLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\PolygonEdgeGroup.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\StringConstants.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\RectUtil.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAssetTemplate.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporter.ImageLayer.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Errors\ImportErrorsEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\SuperGroupLayerLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Helpers\UniqueNameifier.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\SortingMode.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\SuperLayerExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Geom.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\CollisionClipper.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\TilePolygonCollection.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Settings\TypePrefabReplacement.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\SuperTileLayerLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\clipper.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\CollisionClipperKey.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\AppDomainExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ThirdParty\LibTessDotNet\Sweep.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\PolygonEdge.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAssetSettings.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TmxAssetImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\SuperImageLayerLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\GUI\GuiScopedIndent.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TiledAssetImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Settings\ST2USettingsProvider.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\SuperImporter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\StringExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Attributes\AutoCustomTmxImporterAttribute.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\TilePolygon.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\GlobalTileDatabase.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Settings\CustomPropertiesWindow.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\AddST2USpritesToTexture.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\RendererSorter.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\CollisionBuilder.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetTypes\SuperAsset.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AnimationBuilder.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Postprocessors\SuperTexturePostprocessor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Properties\CustomObjectType.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\CustomPropertyExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\GameObjectExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\CompositionPolygon.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Icons\SuperIcons.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\CompositeCollider2DExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TxAssetImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\ObjectTemplate.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\SuperImportContext.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Sprite\SpriteRectsManager.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\AssetPath.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\Triangulator.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TsxAssetImporterEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Math\ColliderFactory.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\Collider2DExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\DataCompression.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Collision\Geometry\PolylineReduction.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\TileIdMath.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\SuperMapExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\CustomEditors\ColliderGizmos.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Extensions\TypeExtensions.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Math\ColliderFactoryOrthogonal.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Loaders\SuperObjectLayerLoader.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Helpers\ReadOnlyPropertyDrawer.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\CustomEditors\SuperWorldEditor.cs" />
+    <Compile Include="Tiled 2 Unity\Editor\Importers\TsxAssetImporter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="F:\UnityGames_Selfmade\2D_Puzzle_Pathfinder\Tiled 2 Unity\Editor\seanba.super-tiled2unity.Editor.asmdef">
-      <Link>Editor\seanba.super-tiled2unity.Editor.asmdef</Link>
-    </None>
+    <None Include="Tiled 2 Unity\Editor\seanba.super-tiled2unity.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

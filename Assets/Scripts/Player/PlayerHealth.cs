@@ -20,6 +20,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float flashRate = 0.1f;    // How fast the sprite flashes
     [SerializeField] private Color damageFlashColor = new Color(1, 0, 0, 0.5f);  // Red flash
 
+    private bool isDashing = false;
+
     // Component references
     private Animator animator;
     private PlayerController_2D playerController;
@@ -56,7 +58,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         // If dead or invincible, don't take damage
-        if (isDead || isInvincible) return;
+        if (isDead || isInvincible || isDashing) return;
 
         currentHealth -= damage;
         UpdateHealthBar();
@@ -93,6 +95,11 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = false;
     }
 
+    public void SetInvulnerability(bool invulnerable)
+    {
+        isDashing = invulnerable;
+    }
+
     private void Die()
     {
         isDead = true;
@@ -102,8 +109,10 @@ public class PlayerHealth : MonoBehaviour
         
         // Reset sprite color
         spriteRenderer.color = originalColor;
-
+        
         // Trigger death animation
+        animator.SetTrigger("die");  
+        // Play death animation
         animator.SetBool("isDead", true);
 
         // Disable player control
@@ -139,9 +148,11 @@ public class PlayerHealth : MonoBehaviour
         {
             transform.position = spawnPoints[currentSpawnPointIndex].position;
         }
-
-        // Reset animation
+        // Reset animator states
+        animator.Rebind();              // Reset all animator parameters
+        animator.Update(0f);            // Force immediate animation update
         animator.SetBool("isDead", false);
+        animator.SetTrigger("respawn"); // New trigger for respawn animation
 
         // Re-enable player
         EnablePlayer();
